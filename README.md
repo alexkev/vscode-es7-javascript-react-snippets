@@ -1,4 +1,10 @@
-# VS Code ES7 React/Redux/React-Native/JS snippets
+
+### This fork of dsznajder's [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) & removes conflicting console.log snippets with [alevkev's](https://marketplace.visualstudio.com/publishers/alexkev) [clg - console.log snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+
+
+---
+
+# CLG EDITION: ES7 React/Redux/React-Native/JS snippets
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/dsznajder.es7-react-js-snippets.svg)
@@ -212,8 +218,6 @@ I.E. `tsrcc`
 
 | Prefix | Method                              |
 | -----: | ----------------------------------- |
-| `clg→` | `console.log(object)`               |
-| `clo→` | `console.log("object", object)`     |
 | `ctm→` | `console.time("timeId")`            |
 | `cte→` | `console.timeEnd("timeId")`         |
 | `cas→` | `console.assert(expression,object)` |

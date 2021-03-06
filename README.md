@@ -2,10 +2,30 @@
 ### This is a fork of dsznajder's [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) 
 
 ### It removes conflicting console.log snippets with [alevkev's](https://marketplace.visualstudio.com/publishers/alexkev) [clg - console.log snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg) 
-### And adds addition snippets and modifications
+### And adds bonus snippets and modifications
 
+const donut = useSelector((state: AppState) => state.tasty.donut)
 
----
+# Bonus Snippets and Modifications
+### `descit`
+
+```javascript
+describe('$1:FILE_NAME_WITHOUT_EXTS', () => {
+    it('$2:should  $3', () => {
+        
+    });
+});
+```
+### `useSelector`
+
+```typescript
+const ${1:state} = useSelector((state${4:: AppState}) => state${2:$3}.${1:state})"
+```
+### `useSelectorWithoutType`
+
+```javascript
+const ${1:state} = useSelector(state => state${2:$3}.${1:state})""
+```
 
 # CLG EDITION: ES7 React/Redux/React-Native/JS snippets
 

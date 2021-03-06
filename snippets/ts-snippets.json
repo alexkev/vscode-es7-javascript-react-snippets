@@ -1,4 +1,8 @@
 {
+  "useSelector": {
+    "prefix": "useSelector",
+    "body": ["const ${1:state} = useSelector((state${4:: AppState}) => state${2:$3}.${1:state})"]
+  },
   "typeScriptReactClassComponent": {
     "prefix": "tsrcc",
     "body": [

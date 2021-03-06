@@ -1535,9 +1535,9 @@
       "}, [${3:input}])"
     ]
   },
-  "useSelector": {
-    "prefix": "useSelector",
-    "body": ["const ${1:state} = useSelector(state => state.${1:state})"]
+  "useSelectorWithoutType": {
+    "prefix": "useSelectorWithoutType",
+    "body": ["const ${1:state} = useSelector(state => state${2:$3}.${1:state})"]
   },
   "useDispatch": {
     "prefix": "useDispatch",

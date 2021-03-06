@@ -698,6 +698,16 @@ export default connect(mapStateToProps, mapDispatchToProps)(FileName)
 */
 ```
 
+### `descit`
+
+```javascript
+describe('$1:FILE_NAME_WITHOUT_EXTS', () => {
+    it('$2:should  $3', () => {
+        
+    });
+});
+```
+
 ### `desc`
 
 ```javascript

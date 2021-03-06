@@ -1,5 +1,8 @@
 
-### This fork of dsznajder's [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) & removes conflicting console.log snippets with [alevkev's](https://marketplace.visualstudio.com/publishers/alexkev) [clg - console.log snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg)
+### This is a fork of dsznajder's [ES7 React/Redux/React-Native/JS snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) 
+
+### It removes conflicting console.log snippets with [alevkev's](https://marketplace.visualstudio.com/publishers/alexkev) [clg - console.log snippets](https://marketplace.visualstudio.com/items?itemName=alexkev.clg) 
+### And adds addition snippets and modifications
 
 
 ---
